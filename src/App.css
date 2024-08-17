@@ -1,0 +1,37 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.webcam{
+    margin-top: 100px;
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+}
+
+.input{
+    margin-top: 10px;
+
+}
+
+.input button{
+    width: 85px;
+    height: 45px;
+    cursor: pointer;
+    border: none;
+    background-color: #5f43b2;
+    color: #fefdfd;
+    border-radius: 3px;
+    font-size: 15px;
+    transition:.3s;
+}
+
+.input button:hover{
+    
+    background-color: #3a3153;
+
+}
